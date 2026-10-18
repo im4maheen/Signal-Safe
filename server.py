@@ -163,8 +163,8 @@ class Handler(BaseHTTPRequestHandler):
         print("%s - %s" % (self.address_string(), fmt % args))
 
 if __name__ == "__main__":
-    server = ThreadingHTTPServer(("127.0.0.1", int(os.getenv("PORT", "8000"))), Handler)
-    print("SignalSafe running at http://127.0.0.1:%s" % server.server_address[1])
+    server = ThreadingHTTPServer(("0.0.0.0", int(os.getenv("PORT", "8000"))), Handler)
+    print("SignalSafe running on port %s" % server.server_address[1])
     print("AI:", "enabled" if OPENAI_API_KEY else "rules-only demo")
     print("Google Web Risk:", "enabled" if GOOGLE_WEBRISK_API_KEY else "not configured")
     try:
