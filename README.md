@@ -77,7 +77,7 @@ The sample performs a Google Web Risk `MALWARE` lookup. Review the provider's cu
 
 The following screenshots showcase SignalSafe's user interface, message analysis process, risk assessment, and scam-detection results.
 
-![SignalSafe Screenshot 1](screenshots/Screenshot 2026-10-19 230120_1.png)
-![SignalSafe Screenshot 2](screenshots/Screenshot 2026-10-19 230114_2.png)
-![SignalSafe Screenshot 3](screenshots/Screenshot 2026-10-19 230053_3.png)
+![SignalSafe Screenshot 1](screenshots/Screenshot 2026-10-19 230120.png)
+![SignalSafe Screenshot 2](screenshots/Screenshot 2026-10-19 230114.png)
+![SignalSafe Screenshot 3](screenshots/Screenshot 2026-10-19 230053.png)
 
