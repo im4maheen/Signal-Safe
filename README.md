@@ -73,3 +73,11 @@ The sample performs a Google Web Risk `MALWARE` lookup. Review the provider's cu
 - URL reputation checks may not detect new or unlisted threats and currently check the MALWARE category only.
 - This local server is a prototype, not hardened for public internet deployment. Before deployment, add HTTPS, authentication/rate limiting, abuse controls, security review, privacy/retention policy, and suitable error monitoring. Do not submit real passwords, OTPs, account numbers, or private conversations.
 - AI requests send the pasted message to the configured AI provider. Inform users clearly and get appropriate consent before processing real user data.
+- ## 🖼️ Screenshots
+
+The following screenshots showcase SignalSafe's user interface, message analysis process, risk assessment, and scam-detection results.
+
+![SignalSafe Screenshot 1](screenshots/Screenshot 2026-10-19 230120_1.png)
+![SignalSafe Screenshot 2](screenshots/Screenshot 2026-10-19 230114_2.png)
+![SignalSafe Screenshot 3](screenshots/Screenshot 2026-10-19 230053_3.png)
+
